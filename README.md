@@ -42,4 +42,4 @@ CN002 > Criar pedido e pagar com boleto via API.
 CN003 > Cliente novo cria pedido e realiza pagamendo com boleto via API.
 Para os cenários que deve criar um cliente novo, foi desenvolvido uma função para gerar e validar o CPF do mesmo.
 
-Para executar com o eclipse, deve-se clicar com o botão direito no cenário desejado, navegar até 'Run As' na outra aba, e clicar em 'JUnit Test'.
+Segue o passo a passo para executar os cenários > [a link](ProjetoMoip/Passo a passo.docx)
