@@ -42,5 +42,6 @@ CN002 > Criar pedido e pagar com boleto via API.
 CN003 > Cliente novo cria pedido e realiza pagamendo com boleto via API.
 Para os cenários que deve criar um cliente novo, foi desenvolvido uma função para gerar e validar o CPF do mesmo.
 
-Segue o passo a passo para executar os cenários
-[Passo a passo](ProjetoMoip/Passo a passo.docx)
+Segue um doc de passo a passo (Passo a passo.docx) para executar os cenários.
+
+Desenvolvido por: Mariana Marques Tibério
