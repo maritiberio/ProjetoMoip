@@ -19,8 +19,8 @@ A classe PagamentoController.java, é composta por duas funções:
 
 e por último, a classe PedidoController.java, que é composta por duas funções:
 
-* criarPedido(API api, PedidoModel p, ClienteModel c)
-* consultarPedido(API api, String orderId)
+* criarPedido(API api, PedidoModel p, ClienteModel c) > Cria um pedido e gera um ID para o mesmo.
+* consultarPedido(API api, String orderId) > Consulta o pedido através do ID.
 
 As entidades estão em classes Model, dentro de src/main/java/br/com/moip/model/.
 
@@ -38,7 +38,7 @@ private String produto; private int quantidade; private String detalhe; private 
 
 # Escopo
 
-O escopo, que é composto por três cenários, estão no caminho /src/test/java/test/ :
+O escopo, que é composto por três cenários, está no caminho /src/test/java/test/ :
 
 * CN001 > Criar cliente e adicionar um cartão via API
 * CN002 > Criar pedido e pagar com boleto via API.
