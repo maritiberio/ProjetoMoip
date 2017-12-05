@@ -14,7 +14,7 @@ adicionarCartao(API api, ClienteModel c) > A função adiciona um cartão para u
 A classe PagamentoController.java, é composta por duas funções:
 
 pagarComCartaoCredito(API api, PedidoModel p, ClienteModel c) > A função realiza o pagamento de um pedido criado, através do cartão de crédito
-pagarComBoleto(API api, PedidoModel p) > A função realiza o pagamento de um pedido criado, através do cartão de crédito
+pagarComBoleto(API api, PedidoModel p) > A função gera um boleto bancário.
 e por último, a classe PedidoController.java, que é composta por duas funções:
 
 criarPedido(API api, PedidoModel p, ClienteModel c)
